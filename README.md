@@ -1,5 +1,13 @@
 # ArtBoard
 
-My art website. Features art I created personally and through my role as a graphic artist for The Student Life (student newspaper of the Claremont Colleges).
-![artboard](artboard2.gif)
+My art website.
+Features:
 
+- Personally created art
+- Projects
+  -- Worldbuilding (2022)
+  -- Illustrations made for [The Student Life](https://tsl.news/opinion-the-5cs-need-to-be-more-shady/)
+  -- More
+- Art created in high school and before
+
+![artboard](art-portfolio-ver2.gif)
