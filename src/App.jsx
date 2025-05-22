@@ -51,7 +51,10 @@ const router = createBrowserRouter(
 			<Route path="projects" element={<Projects />} />
 			<Route path="archive" element={<Archive />} />
 		</Route>
-	)
+	),
+	{
+		basename: "/artboard",
+	  }
 );
 
 const App = () => (
