@@ -8,7 +8,7 @@ import PageTemplate from './pages/PageTemplate'
 /* page imports
 import All from './pages/All'
 import Projects from './pages/Projects'
-import Archive from './pages/Archive' */
+import Archive from './pages/commArchive' */
 
 const App = () => {
 return (
