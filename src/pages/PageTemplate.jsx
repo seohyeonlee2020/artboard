@@ -3,11 +3,11 @@ import React from "react";
 import Artcard from '../components/Artcard'
 import {artcards} from '../ArtcardData';
 
-const PageTemplate = ({bool_condition = true}) => {
+const PageTemplate = ({fn = () => true}) => {
 return (
 	<div>
 		<div className = "artcard-container">
-			{artcards.filter((card) => bool_condition).map((artcard, index) => (
+			{artcards.filter(fn).map((artcard, index) => (
 				<Artcard
 					key={index}
 					src={artcard.src}
