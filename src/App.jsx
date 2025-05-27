@@ -1,5 +1,11 @@
-import './App.css';
+import 'App.css';
 import Artcard from './components/Artcard'
+import Header from './components/Header'
+
+/* page imports */
+import All from './pages/All'
+import Projects from './pages/Projects'
+import Archive from './pages/Archive'
 
 const App = () => {
 	const artcards = [
@@ -19,7 +25,8 @@ const App = () => {
 	]
 return (
 	<div className="App">
-		<h1 className = "art-board">Art Board</h1>
+		<Header />
+
 		<div className = "artcard-container">
 			{artcards.map((artcard, index) => (
 				<Artcard
